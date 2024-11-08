@@ -31,9 +31,18 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              "src/favicon.ico",
+              "src/assets",
+              "src/files",
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "./node_modules/bootstrap-italia/dist/fonts",
+                "output": "/bootstrap-italia/fonts"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/bootstrap-italia/dist/svg",
+                "output": "/bootstrap-italia/svg"
               }
             ],
             "styles": [
@@ -93,9 +102,18 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
+              "src/favicon.ico",
+              "src/assets",
+              "src/files",
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "./node_modules/bootstrap-italia/dist/fonts",
+                "output": "/bootstrap-italia/fonts"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/bootstrap-italia/dist/svg",
+                "output": "/bootstrap-italia/svg"
               }
             ],
             "styles": [

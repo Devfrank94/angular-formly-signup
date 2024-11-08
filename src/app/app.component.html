@@ -1,3 +1,13 @@
-<app-navbar></app-navbar>
-<router-outlet></router-outlet>
-<app-footer></app-footer>
+<div class="container-fluid">
+  <app-navbar></app-navbar>
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
+
+  <div (window:scroll)="scrollFunction()"></div>
+
+  <button class="btnTop" (click)="topFunction()" id="myBtn" title="Go to top">
+    <svg class="icon icon-light">
+      <use xlink:href="./bootstrap-italia/svg/sprites.svg#it-arrow-up"></use>
+    </svg>
+  </button>
+</div>
