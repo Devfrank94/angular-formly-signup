@@ -23,6 +23,5 @@ import { FormSignupComponent } from './components/form-signup/form-signup.compon
   imports: [
     CommonModule
   ],
-  // exports:
 })
 export class SharedModule { }
