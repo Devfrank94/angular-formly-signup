@@ -3,10 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-import { ReactiveFormsModule } from '@angular/forms';
-import { FormlyModule } from '@ngx-formly/core';
-import { FormlyBootstrapModule } from '@ngx-formly/bootstrap';
+import {HomeModule} from './pages/home/home.module';
+import {SharedModule} from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -15,11 +13,10 @@ import { FormlyBootstrapModule } from '@ngx-formly/bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule,
-    FormlyModule.forRoot(),
-    FormlyBootstrapModule
-
+    HomeModule,
+    SharedModule
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
