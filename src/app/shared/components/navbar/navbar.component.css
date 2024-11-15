@@ -1,0 +1,20 @@
+.active {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+li{
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+li:hover {
+  background-color: rgba(234, 234, 234, 0.6);
+  transition-timing-function: ease-in;
+  transition-duration: 0.4s;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
