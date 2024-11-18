@@ -1,6 +1,5 @@
-.active {
-  cursor: pointer;
-  text-decoration: none;
+.active{
+  background-color: rgba(234, 234, 234, 0.6);
 }
 
 li{
@@ -9,6 +8,7 @@ li{
 }
 
 li:hover {
+  cursor: pointer;
   background-color: rgba(234, 234, 234, 0.6);
   transition-timing-function: ease-in;
   transition-duration: 0.4s;
