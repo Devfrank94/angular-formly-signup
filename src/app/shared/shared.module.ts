@@ -5,6 +5,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FormSignupComponent } from './components/form-signup/form-signup.component';
 import {RouterLink, RouterLinkActive} from '@angular/router';
+import {ReactiveFormsModule} from '@angular/forms';
+import {FormlyModule} from '@ngx-formly/core';
 
 
 
@@ -25,7 +27,9 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
     CommonModule,
     RouterLink,
     NgOptimizedImage,
-    RouterLinkActive
+    RouterLinkActive,
+    ReactiveFormsModule,
+    FormlyModule
   ],
 })
 export class SharedModule { }
